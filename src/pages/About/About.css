@@ -1,0 +1,46 @@
+.AboutContainer {
+  margin-top: 85px;
+  margin-right: 15vw;
+  margin-left: 15vw;
+  margin-bottom: 10vh;
+}
+
+.AboutContainer div {
+  margin-top: 1vw;
+}
+
+.FlexContainer {
+  display: flex;
+  align-items: center;
+  gap: 2vw;
+}
+
+.BeliefContainer {
+  text-align: left;
+}
+
+/* Computer and Tablet */
+@media screen and (min-width: 900px) {
+  .FlexContainer {
+    flex-wrap: nowrap;
+  }
+  .Image {
+    width: 12vw;
+  }
+  .ImageDescription {
+    width: auto;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 900px) {
+  .FlexContainer {
+    flex-wrap: wrap;
+  }
+  .Image {
+    width: 40vw;
+  }
+  .ImageDescription {
+    width: 80vw;
+  }
+}

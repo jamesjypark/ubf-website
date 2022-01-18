@@ -1,3 +1,84 @@
-.box {
+.Home > * + * {
+  margin: 5vw;
+}
+
+.SplashScreen {
+  height: 100vh;
+  width: 100vw;
+  background: url("../../res/img/promo.jpg") no-repeat center center fixed;
+  background-position: center;
+  color: white;
+  background-size: cover;
+
   display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.SplashScreen .MainText {
+  z-index: 1;
+}
+
+.SplashScreen .Overlay {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(
+    to top,
+    rgba(25, 99, 172, 0.7),
+    rgba(25, 99, 172, 1)
+  );
+
+  opacity: 0.9;
+}
+
+.SplashScreen .Arrow {
+  height: 20px;
+  width: auto;
+}
+
+.LinkContainer {
+  position: absolute;
+  z-index: 10;
+  width: auto;
+  bottom: 30px;
+}
+
+.FlexContainer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.FlexItem {
+  margin: 1vw;
+}
+
+/* Computer and Tablet */
+@media screen and (min-width: 900px) {
+  .MainText {
+    width: 50vw;
+  }
+  .FlexItem {
+    width: 20vw;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 900px) {
+  .MainText {
+    width: 80%;
+  }
+  .FlexItem {
+    width: 80vw;
+  }
+}
+
+.FlexItem > * + * {
+  margin: 1vw;
+}
+
+.ContactContainer > * + * {
+  margin: 0.5vw;
 }
