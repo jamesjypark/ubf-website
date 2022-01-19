@@ -1,7 +1,7 @@
 {
   "main.css": "/static/css/main.b1bab47e.chunk.css",
-  "main.js": "/static/js/main.41b083a5.chunk.js",
-  "main.js.map": "/static/js/main.41b083a5.chunk.js.map",
+  "main.js": "/static/js/main.2530b154.chunk.js",
+  "main.js.map": "/static/js/main.2530b154.chunk.js.map",
   "static/js/1.fc3557f4.chunk.js": "/static/js/1.fc3557f4.chunk.js",
   "static/js/1.fc3557f4.chunk.js.map": "/static/js/1.fc3557f4.chunk.js.map",
   "static/css/2.e2446ad5.chunk.css": "/static/css/2.e2446ad5.chunk.css",
@@ -16,9 +16,9 @@
   "static/media/ubf_logo.png": "/static/media/ubf_logo.7ded32fa.png",
   "static/media/ubf_logo_white.png": "/static/media/ubf_logo_white.60d3d273.png",
   "static/media/Home.css": "/static/media/promo.5b320b11.jpg",
-  "static/css/2.e2446ad5.chunk.css.map": "/static/css/2.e2446ad5.chunk.css.map",
   "static/css/main.b1bab47e.chunk.css.map": "/static/css/main.b1bab47e.chunk.css.map",
+  "static/css/2.e2446ad5.chunk.css.map": "/static/css/2.e2446ad5.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.9cec74f1af8dfb9dcea805189399431d.js": "/precache-manifest.9cec74f1af8dfb9dcea805189399431d.js",
+  "precache-manifest.f5e405043160749648439ebda847146c.js": "/precache-manifest.f5e405043160749648439ebda847146c.js",
   "service-worker.js": "/service-worker.js"
 }
