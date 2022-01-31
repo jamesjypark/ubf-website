@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button } from "react-bootstrap";
+import { HashLink as Link } from 'react-router-hash-link';
 
 import "./Home.css";
 
@@ -16,9 +17,9 @@ const Home = () => {
           We are a Christian student club at UVic dedicated to studying the{" "}
           <b>Bible</b>.
         </div>
-        <a class="LinkContainer" href="#ContentScreen">
+        <Link class="LinkContainer" to="#ContentScreen">
           <img class="Arrow MainText" src={Arrow} alt=""></img>
-        </a>
+        </Link>
         <div class="Overlay"></div>
       </div>
 
