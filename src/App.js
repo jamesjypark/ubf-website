@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter, Route, Switch } from "react-router-dom";
 
 import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
@@ -11,30 +11,18 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <Router>
+      <HashRouter>
         <Header />
 
         <body>
           <Switch>
-            <Route exact path="/">
-              <Home />
-            </Route>
-            <Route path="/:pageId" component={RenderPage} />
+            <Route exact path="/" component={Home} />
+            <Route path="/about" component={About} />
           </Switch>
         </body>
-      </Router>
+      </HashRouter>
     </div>
   );
 }
-
-const RenderPage = ({ match }) => {
-  let pageId = match.params.pageId.toLowerCase();
-  switch (pageId) {
-    case "about":
-      return <About />;
-    default:
-      return <div>{pageId}</div>;
-  }
-};
 
 export default App;
