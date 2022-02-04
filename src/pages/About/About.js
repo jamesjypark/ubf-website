@@ -8,7 +8,6 @@ import LogoImage from "../../res/img/ubf_logo.png";
 const About = () => {
   return (
     <div class="AboutContainer">
-      <div class="spacer"></div>
       <div class="Header1">Who We Are</div>
       <img class="Image" src={LogoImage} alt="" />
       <div>

@@ -20,20 +20,36 @@
   color: #61dafb;
 }
 
-.MainText {
-  font-size: 3rem;
+/* Computer and Tablet */
+@media screen and (min-width: 900px) {
+  .MainText {
+    font-size: 3rem;
+  }
+
+  .Header1 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  .Header2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
 }
 
-.Header1 {
-  font-size: 2rem;
-  font-weight: bold;
-}
+/* Mobile */
+@media screen and (max-width: 900px) {
+  .MainText {
+    font-size: 2rem;
+  }
 
-.Header2 {
-  font-size: 1.5rem;
-  font-weight: bold;
-}
+  .Header1 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
 
-.spacer {
-  height: 25px;
+  .Header2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
 }
