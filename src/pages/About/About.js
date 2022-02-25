@@ -53,7 +53,7 @@ const About = () => {
           have any questions about us and we'll get back to you shortly.
         </div>
 
-        <Button href="mailto:victoriaubf@gmail.com">Email Us</Button>
+        <Button href="mailto:victoriaubf@gmail.com">Send Email</Button>
       </div>
     </div>
   );

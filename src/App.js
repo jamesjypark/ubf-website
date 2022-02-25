@@ -3,7 +3,7 @@ import { HashRouter, Route, Switch } from "react-router-dom";
 
 import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
-import BibleStudy from "./pages/BibleStudy/BibleStudy";
+import Events from "./pages/Events/Events";
 
 import Header from "./components/Header/Header";
 
@@ -19,7 +19,7 @@ function App() {
           <Switch>
             <Route exact path="/" component={Home} />
             <Route path="/about" component={About} />
-            <Route path="/bible_study" component={BibleStudy} />
+            <Route path="/events" component={Events} />
           </Switch>
         </body>
       </HashRouter>

@@ -19,14 +19,14 @@ const Header = () => {
         </Navbar.Brand>
 
         <Nav className="justify-content-end">
-          <Nav.Link href={`/#/`} className="justify-content-end">
+          {/* <Nav.Link href={`/#/`} className="justify-content-end">
             Home
-          </Nav.Link>
+          </Nav.Link> */}
           <Nav.Link href={`/#/about`} className="justify-content-end">
             About
           </Nav.Link>
-          <Nav.Link href={`/#/bible_study`} className="justify-content-end">
-            Bible Study
+          <Nav.Link href={`/#/events`} className="justify-content-end">
+            Events
           </Nav.Link>
         </Nav>
       </Container>
