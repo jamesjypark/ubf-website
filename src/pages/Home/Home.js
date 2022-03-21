@@ -11,19 +11,20 @@ import Arrow from "../../res/img/down-arrow.png";
 
 const Home = () => {
   return (
-    <div class="Home">
+    <div>
       <div class="SplashScreen">
         <div class="MainText">
           We are a Christian student club at UVic dedicated to studying the{" "}
           <b>Bible</b>.
         </div>
-        <Link class="LinkContainer" to="#ContentScreen">
+        <Link class="LinkContainer" to="#what-we-do">
           <img class="Arrow MainText" src={Arrow} alt=""></img>
         </Link>
         <div class="Overlay"></div>
       </div>
 
-      <div id="ContentScreen">
+      <div id="what-we-do"></div>
+      <div className="content-container">
         <div class="Header1">What We Do</div>
         <div class="FlexContainer">
           <div class="FlexItem">
@@ -58,15 +59,14 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </div>
-
-      <div class="ContactContainer">
-        <div class="Header1">Join Us</div>
-        <div>
-          We are always open to new members!<br />
-          If you wish to join our club for 2022 Spring semester, please fill out the form below!
+        <div class="ContactContainer">
+          <div class="Header1">Join Us</div>
+          <div>
+            We are always open to new members!<br />
+            If you wish to join our club for 2022 Spring semester, please fill out the form below!
+          </div>
+          <Button target="_blank" href="https://forms.gle/wxbZDC91RNXUAuTW9">Register</Button>
         </div>
-        <Button target="_blank" href="https://forms.gle/wxbZDC91RNXUAuTW9">Register</Button>
       </div>
     </div>
   );

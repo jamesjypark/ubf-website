@@ -1,60 +1,27 @@
-* {
-  font-family: Avenir;
-}
-
 .App {
   text-align: center;
-}
-
-.App-header {
-  background-color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: black;
-}
-
-.App-link {
-  color: #61dafb;
+  height: 100%;
+  width: 100%;
 }
 
 /* Computer and Tablet */
-@media screen and (min-width: 900px) {
-  .ContentScreen {
-    padding-left: 20vw;
-    padding-right: 20vw;
-  }
-
-  .MainText {
-    font-size: 3rem;
-  }
-
-  .Header1 {
-    font-size: 2rem;
-    font-weight: bold;
-  }
-
-  .Header2 {
-    font-size: 1.5rem;
-    font-weight: bold;
+@media screen and (min-width: 1000px) {
+  .content-container {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
 /* Mobile */
-@media screen and (max-width: 900px) {
-  .MainText {
-    font-size: 2rem;
+@media screen and (max-width: 1000px) {
+  .content-container {
+    max-width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
   }
+}
 
-  .Header1 {
-    font-size: 2rem;
-    font-weight: bold;
-  }
-
-  .Header2 {
-    font-size: 1.5rem;
-    font-weight: bold;
-  }
+.content-container > * {
+  margin-top: 2vh;
 }

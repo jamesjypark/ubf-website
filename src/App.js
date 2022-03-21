@@ -8,6 +8,7 @@ import Events from "./pages/Events/Events";
 import Header from "./components/Header/Header";
 
 import "./App.css";
+import "./styles.css";
 
 function App() {
   return (
