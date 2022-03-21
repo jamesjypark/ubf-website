@@ -1,0 +1,26 @@
+.FlexContainer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+/* Computer and Tablet */
+@media screen and (min-width: 900px) {
+  .MainText {
+    width: 50vw;
+  }
+  .FlexItem {
+    width: 20vw;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 900px) {
+  .MainText {
+    width: 80%;
+    font-size: 10px;
+  }
+  .FlexItem {
+    width: 80vw;
+  }
+}
