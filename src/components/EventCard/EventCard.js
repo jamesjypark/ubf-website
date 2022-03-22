@@ -1,5 +1,7 @@
 import React from "react";
-import { Button } from "react-bootstrap";
+import { Button, Badge } from "react-bootstrap";
+
+import "./EventCard.css";
 
 const eventType = 'Bible Study';
 const title = 'Jesus is the Pioneer of Our Salvation';
@@ -11,28 +13,34 @@ const questions = "reference to PDF";
 
 const EventCard = () => {
   return (
-    <div className="FlexContainer">
-      <div>
+    <div className="EventCard">
+      <div className="flex">
         <div>
-          {eventType}
-          {isLive ? "LIVE" : ""}
+          Image
         </div>
-        <div>
-          {title}
-        </div>
-        <a href={`https://www.biblegateway.com/passage/?search=${passage}`}>
-          <div>{passage}</div>
-        </a>
-        <div>
-          {date}
+        <div className="left-align">
+          <div>
+            {eventType}
+            <Badge className={isLive ? "" : "hidden"}bg="secondary">Live</Badge>
+
+          </div>
+          <div>
+            {title}
+          </div>
+          <a href={`https://www.biblegateway.com/passage/?search=${passage}`}>
+            <div>{passage}</div>
+          </a>
+          <div>
+            {date}
+          </div>
         </div>
       </div>
-      <div>
+      <div className="right-align">
         <div>
-          {zoomLink ? <Button>Join</Button> : ""}
+          <Button className={zoomLink ? "" : "hidden"}>Join</Button>
         </div>
         <div>
-          {questions ? <Button>Questions</Button> : ""}
+         <Button className={questions ? "" : "hidden"}>Questions</Button>
         </div>
       </div>
     </div>

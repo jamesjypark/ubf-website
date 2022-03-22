@@ -1,26 +1,12 @@
-.FlexContainer {
+.EventCard {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
+  background: lightblue;
 }
 
-/* Computer and Tablet */
-@media screen and (min-width: 900px) {
-  .MainText {
-    width: 50vw;
-  }
-  .FlexItem {
-    width: 20vw;
-  }
-}
-
-/* Mobile */
-@media screen and (max-width: 900px) {
-  .MainText {
-    width: 80%;
-    font-size: 10px;
-  }
-  .FlexItem {
-    width: 80vw;
-  }
+.flex {
+  display: flex;
+  align-items: center;
 }

@@ -7,6 +7,7 @@
 .content-container {
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 10vh;
 }
 
 /* Computer and Tablet */
@@ -25,4 +26,16 @@
 
 .content-container > * {
   margin-top: 2vh;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.left-align {
+  text-align: left;
+}
+
+.right-align {
+  text-align: right;
 }
