@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 import { Button } from "react-bootstrap";
-import { HashLink as Link } from 'react-router-hash-link';
+import { HashLink as Link } from "react-router-hash-link";
 
 import "./Home.css";
 
@@ -14,8 +14,8 @@ const Home = () => {
     <div>
       <div class="SplashScreen">
         <div class="MainText">
-          We are a Christian student club at UVic dedicated to studying the{" "}
-          <b>Bible</b>.
+          A Christian student club at UVic where we explore the <b>Bible</b>{" "}
+          together.
         </div>
         <Link class="LinkContainer" to="#what-we-do">
           <img class="Arrow MainText" src={Arrow} alt=""></img>
@@ -55,17 +55,21 @@ const Home = () => {
             </div>
             <div class="Header2">Worship On-campus</div>
             <div>
-              We hold our worship service every Sunday at 11 AM on UVic campus. (Moved to Zoom for the time being)
+              We hold our worship service every Sunday at 11 AM on UVic campus
+              in Clearihue A217.
             </div>
           </div>
         </div>
         <div class="ContactContainer">
           <div class="Header1">Join Us</div>
           <div>
-            We are always open to new members!<br />
-            If you wish to join our club for 2022 Spring semester, please fill out the form below!
+            We welcome everyone to our club! If you want to stay up to date --
+            join our Discord server!
+            <br />
           </div>
-          <Button target="_blank" href="https://forms.gle/wxbZDC91RNXUAuTW9">Register</Button>
+          <Button target="_blank" href="https://discord.gg/YyYzvkVJfB">
+            Join Discord
+          </Button>
         </div>
       </div>
     </div>

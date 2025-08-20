@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 
 import logo from "../../res/logo/ubf_logo_white.png";
@@ -22,9 +22,9 @@ const Header = () => {
           <Nav.Link href={`/#/about`} className="justify-content-end">
             About
           </Nav.Link>
-          <Nav.Link href={`/#/events`} className="justify-content-end">
+          {/* <Nav.Link href={`/#/events`} className="justify-content-end">
             Events
-          </Nav.Link>
+          </Nav.Link> */}
         </Nav>
       </Container>
     </Navbar>

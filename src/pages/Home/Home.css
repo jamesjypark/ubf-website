@@ -1,7 +1,7 @@
 .SplashScreen {
   height: 100vh;
   width: 100vw;
-  background: url("../../res/img/promo.jpg") no-repeat center center fixed;
+  background: url("../../res/img/group_3.png") no-repeat center center fixed;
   background-position: center;
   color: white;
   background-size: cover;
@@ -104,7 +104,7 @@
 /* Computer and Tablet */
 @media screen and (min-width: 900px) {
   .MainText {
-    width: 50vw;
+    width: 40vw;
   }
   .FlexItem {
     width: 20vw;
