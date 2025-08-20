@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 const InstagramLatest = () => {
   const [posts, setPosts] = useState([]);
   const accessToken = "YOUR_INSTAGRAM_ACCESS_TOKEN"; // Replace with your token
-  const userId = "YOUR_USER_ID"; // Replace with Victoria_UBF IG user ID
+  const userId = "victoria_ubf";
 
   useEffect(() => {
     const fetchPosts = async () => {
