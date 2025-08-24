@@ -12,6 +12,13 @@
   text-align: center;
 }
 
+@media screen and (max-width: 900px) {
+  .SplashScreen {
+    background-image: url("../../res/img/group_mobile.png");
+    background-size: cover;
+  }
+}
+
 .SplashScreen .MainText {
   z-index: 1;
 }
