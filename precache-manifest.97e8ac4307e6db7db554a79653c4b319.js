@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "0eeab04c2917416dbddb",
-    "url": "/static/css/main.307d6159.chunk.css"
+    "revision": "e8478ee18b3648e143a8",
+    "url": "/static/css/main.dce70507.chunk.css"
   },
   {
-    "revision": "0eeab04c2917416dbddb",
-    "url": "/static/js/main.0eeab04c.chunk.js"
+    "revision": "e8478ee18b3648e143a8",
+    "url": "/static/js/main.e8478ee1.chunk.js"
   },
   {
     "revision": "6107ed9f4b6fa2d1c28e",
@@ -48,11 +48,15 @@ self.__precacheManifest = [
     "url": "/static/media/ubf_logo_white.60d3d273.png"
   },
   {
+    "revision": "c24f55e5ebe22a0e91478ab5a9cebbd4",
+    "url": "/static/media/group_mobile.c24f55e5.png"
+  },
+  {
     "revision": "565b572b72f6809a5fbdfe551b345767",
     "url": "/static/media/group_3.565b572b.png"
   },
   {
-    "revision": "9117f153dba8025863b0b896c8b85327",
+    "revision": "c62299bff7f08bad4d047fe12291de5d",
     "url": "/index.html"
   }
 ];
