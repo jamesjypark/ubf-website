@@ -1,4 +1,61 @@
-.navbar {
-  background-color: #2c6fb4;
-  height: 65px;
+.SiteHeader {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem clamp(1.25rem, 5vw, 3.5rem);
+  background: rgba(250, 246, 238, 0.92);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--hairline);
+}
+
+.Brand {
+  font-family: var(--serif);
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  color: var(--ink);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.BrandDot {
+  color: var(--rust);
+}
+
+.SiteNav {
+  display: flex;
+  gap: clamp(0.9rem, 3vw, 1.75rem);
+}
+
+.SiteNav a {
+  font-family: var(--sans);
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  text-decoration: none;
+  padding-bottom: 2px;
+  border-bottom: 1px solid transparent;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.SiteNav a:hover {
+  color: var(--rust);
+  border-bottom-color: var(--rust);
+}
+
+@media screen and (max-width: 640px) {
+  .SiteHeader {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.4rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.7rem;
+  }
 }

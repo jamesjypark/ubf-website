@@ -1,0 +1,30 @@
+.InstaGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(230px, 100%), 1fr));
+  gap: clamp(1rem, 2.5vw, 1.5rem);
+}
+
+.InstaTile {
+  display: block;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 6px 18px rgba(38, 33, 26, 0.12);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.InstaTile:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 28px rgba(38, 33, 26, 0.18);
+}
+
+.InstaTile img {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 640px) {
+  .InstaGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
